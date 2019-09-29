@@ -1,0 +1,80 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image:url('images/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.box{
+	width: 500px;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: #C6F7EC;
+	font-family: Times New Roman;
+	font-size: 18px;
+}
+
+
+.profile{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.box h1{
+	font-size: 36px;
+}
+
+.box h4{
+	font-size: 20px;
+}
+
+.box p{
+	text-align: justify;
+}
+
+.box a{
+	color: #C6F7EC;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.box li{
+	display: inline-block;
+	margin: 10px;
+}
+
+.fa{
+	padding: 15px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	opacity: 0.7;
+}
+
+.fa:hover{
+	opacity: 1;
+}
+
+.fa-github{
+	background: #141212;
+	color: white;
+}
+
+.fa-facebook{
+	background: #3B5998;
+	color: white;
+}
+
+.fa-linkedin{
+	background: #0077B5;
+	color: white;
+}
