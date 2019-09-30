@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> CSS manipulation </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<p id="paragraph">
+			This summary is taken from chapter 5 of ABSC 100.
+			<br><br>
+			Operant behavior is behavior influenced by antecedents and consequences. In this
+			chapter, we focused on consequences and discussed how contingent consequences can
+			influence behavior. Contingent consequences are caused by the operant response; that is, there
+			is an IF response à THEN consequence relation between them. As you will see in later chapters,
+			there isn’t always a one-response one-consequence relation. Sometimes, the contingency
+			requires that many responses occur before the consequence occurs (for example, all of the
+			studying that goes into earning a good grade on an exam).
+			<br><br>
+			An important type of consequence is called a reinforcer. Reinforcers increase behavior
+			relative to a no-reinforcer baseline. When we turn on and off the consequence, and behavior
+			increases and decreases, respectively, that consequence functions as a reinforcer – it maintains
+			behavior. Much of our everyday behavior is maintained by reinforcers. See how many you can
+			identify in your own life.
+			<br><br>
+			Understanding the reinforcers that influence your behavior can help you live a better life.
+			Are there some reinforcers that lead to adaptive behavior? Can you arrange more of those? What
+			about reinforcers that maintain maladaptive behavior? Can you minimize those? Are you
+			repeating the same behaviors and getting lackluster results? Should you introduce some 
+			variability into your life? One of the joys of studying principles of behavior analysis is using them
+			to improve your own life, and the lives of those around you. So, don’t just learn the principles
+			covered in this book, use them!
+		</p>
+		<div class="row">
+			<div class="column">
+				<h4>Font color</h4>
+				<label>red(0-255)</label>
+				<input type="text" id="redFont" placeholder="255" value="0">
+				<br>
+				<label>green(0-255)</label>
+				<input type="text" id="greenFont" placeholder="255" value="0">
+				<br>
+				<label>blue(0-255)</label>
+				<input type="text" id="blueFont" placeholder="255" value="0">
+			</div>
+		
+			<div class="column">
+				<h4>Background color</h4>
+				<label>red(0-255)</label>
+				<input type="text" id="redBackground" placeholder="255" value="255">
+				<br>
+				<label>green(0-255)</label>
+				<input type="text" id="greenBackground" placeholder="255" value="255">
+				<br>
+				<label>blue(0-255)</label>
+				<input type="text" id="blueBackground" placeholder="255" value="255">
+			</div>
+			
+			<div class="column">
+				<h4>Width value</h4>
+				<input type="text" id="widthValue" value="100%">
+			</div>
+		</div>
+		<button type="button" id="clickButton" onclick="updateFormat()">Update format</button>
+	</body>
+	<script type="text/javascript" src="scripts.js"></script>
+</html>
