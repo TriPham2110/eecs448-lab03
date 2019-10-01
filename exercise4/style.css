@@ -6,6 +6,8 @@ body{
 p{
 	text-align: justify;
 	margin:0px auto;
+	border-style: solid;
+	border-color: white;
 }
 
 .row{
