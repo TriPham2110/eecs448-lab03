@@ -11,7 +11,7 @@ widthValue = document.getElementById("widthValue");
 function updateFormat(){	
 	paragraph.style.borderColor = "rgb(" + redBorder.value + "," + greenBorder.value + "," + blueBorder.value + ")";
 	paragraph.style.backgroundColor = "rgb(" + redBackground.value + "," + greenBackground.value + "," + blueBackground.value + ")";
-	paragraph.style.width = widthValue.value;
-	alert("You have chosen " + paragraph.style.borderColor + " for border color, " + paragraph.style.backgroundColor + " for background color and " + paragraph.style.width + " for width value.");
+	paragraph.style.borderWidth = widthValue.value;
+	alert("You have chosen " + paragraph.style.borderColor + " for border color, " + paragraph.style.backgroundColor + " for background color and " + paragraph.style.borderWidth + " for width value.");
 }
 
